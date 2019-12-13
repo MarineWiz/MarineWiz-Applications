@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0">
+      <HintPath>.\package\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0">
+      <HintPath>.\package\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="MarineWizSupporter">
+      <HintPath>.\package\MarineWizSupporter.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro">
+      <HintPath>.\package\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlzEx">
+      <HintPath>.\package\ControlzEx.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>.\package\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SampleData">
+      <HintPath>.\resources\library\SampleData.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModelBase.cs" />
+    <Compile Include="Models\TextBlock16_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\TextBlock16_MainWindow_ViewModel.cs" />
+    <Compile Include="ViewModels\TextBlock17_MainWindow_ViewModel.cs" />
+    <Compile Include="ViewModels\TextBlock19_MainWindow_ViewModel.cs" />
+    <Compile Include="ViewModels\TextBlock21_MainWindow_ViewModel.cs" />
+    <Compile Include="ViewModels\TextBlock20_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\TextBlock28_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\TextBlock28_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\AngularGaugeChart0_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\AngularGaugeChart0_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\AngularGaugeChart1_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\AngularGaugeChart1_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\ConstantChangesChart0_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\ConstantChangesChart0_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\GaugeChart2_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\GaugeChart2_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\GaugeChart3_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\GaugeChart3_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\GaugeChart4_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\GaugeChart4_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\ColumnChartBase0_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\ColumnChartBase0_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\ColumnChartBase1_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\ColumnChartBase1_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\GaugeChart5_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\GaugeChart5_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\TextBlock18_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\TextBlock18_MainWindow_ViewModel.cs" />
+    <Compile Include="Models\ColumnChartBase2_MainWindow_Model.cs" />
+    <Compile Include="ViewModels\ColumnChartBase2_MainWindow_ViewModel.cs" />
+    <Compile Include="ViewModels\TextBlock25_MainWindow_ViewModel.cs" />
+    <Compile Include="TimerManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\ship.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\anchor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

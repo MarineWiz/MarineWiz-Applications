@@ -1,0 +1,54 @@
+<Gantt>
+  <Task Task="계획수립 및 자료조사(ETRI)">
+    <Start>2019-01-01</Start>
+    <End>2019-01-31</End>
+  </Task>
+  <Task Task="기술별 요구 분석(ETRI)">
+    <Start>2019-02-01</Start>
+    <End>2019-04-15</End>
+  </Task>
+  <Task Task="개발시스템 구성 및 설계(ETRI)">
+    <Start>2019-03-11</Start>
+    <End>2019-05-31</End>
+  </Task>
+  <Task Task="주요평가방법 및 성능평가 항목 결정(ETRI)">
+    <Start>2019-04-01</Start>
+    <End>2019-04-30</End>
+  </Task>
+  <Task Task="컴포넌트기반 SW통합 개발지원도구 v1.0 개발(ETRI)">
+    <Start>2019-05-01</Start>
+    <End>2019-11-25</End>
+  </Task>
+  <Task Task="조선해양 공통 라이브러리 개발(ETRI)">
+    <Start>2019-02-01</Start>
+    <End>2019-07-31</End>
+  </Task>
+  <Task Task="Ship SW 개발 지원 핵심 라이브러리 개발(이마린)">
+    <Start>2019-04-01</Start>
+    <End>2019-11-15</End>
+  </Task>
+  <Task Task="Shipyard SW 개발 지원 핵심 라이브러리 개발(윈정보)">
+    <Start>2019-02-01</Start>
+    <End>2019-12-13</End>
+  </Task>
+  <Task Task="SDK 및 라이브러리 검증 프로세스 개발(한국선급)">
+    <Start>2019-03-01</Start>
+    <End>2019-09-30</End>
+  </Task>
+  <Task Task="우선추진 라이브러리 검증(한국선급)">
+    <Start>2019-05-01</Start>
+    <End>2019-11-30</End>
+  </Task>
+  <Task Task="생태계 조성 방안 및 운용인프라 연구(UIPA)">
+    <Start>2019-01-01</Start>
+    <End>2019-07-31</End>
+  </Task>
+  <Task Task="수요자 및 공급자 활성화 방안 연구(UIPA)">
+    <Start>2019-05-01</Start>
+    <End>2019-12-31</End>
+  </Task>
+  <Task Task="기능 시험 및 성능 안정화(ETRI)">
+    <Start>2019-10-01</Start>
+    <End>2019-12-31</End>
+  </Task>
+</Gantt>

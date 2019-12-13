@@ -1,0 +1,226 @@
+<Window
+    x:Class="Application_Gantt.MainWindow"
+Title="Gantt Schedule Manager"
+  SizeToContent="WidthAndHeight"
+  ResizeMode="NoResize" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mwsuis="clr-namespace:MarineWizSupporter.UISupporter;assembly=MarineWizSupporter" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas
+    Name="canvas"
+    Width="950"
+    Height="660">
+    <mwsuis:GanttChart
+      DataSource="/Application_Gantt;component/resources/data_GanttChart0.xml"
+      DataPath="resources\data_GanttChart0.xml"
+      Value="{x:Null}"
+      BorderBrush="#77000000"
+      BorderThickness="0,0,0,0"
+      Background="#00000000"
+      Foreground="#FF6495ED"
+      FontFamily="Dotum"
+      FontSize="13"
+      Padding="0,0,0,0"
+      Name="GanttChart0"
+      Width="837.000000000001"
+      Height="254.622226971631"
+      Canvas.Left="62.4999999999996"
+      Canvas.Top="385.377773028369"
+      Panel.ZIndex="0" />
+    <Menu
+      Name="Menu0"
+      Width="950"
+      Height="29.62"
+      Canvas.Left="Auto"
+      Canvas.Top="Auto">
+      <MenuItem
+        Header="File"
+        Name="File_MenuItem"
+        Height="29.62"
+        ToolTip="">
+        <MenuItem
+          Header="Load XML"
+          Name="File_Load_XML_MenuItem"
+          ToolTip="" />
+        <MenuItem
+          Header="Save"
+          Name="File_Save_MenuItem"
+          ToolTip="" />
+        <MenuItem
+          Header="Exit"
+          Name="File_Exit_MenuItem"
+          ToolTip="" />
+      </MenuItem>
+      <MenuItem
+        Header="Help"
+        Name="Help_MenuItem"
+        Height="29.62"
+        ToolTip="">
+        <MenuItem
+          Header="About..."
+          Name="Help_About____MenuItem"
+          ToolTip="" />
+      </MenuItem>
+    </Menu>
+    <TextBlock
+      Text="프로젝트 스케쥴 관리"
+      FontFamily="Malgun Gothic"
+      FontWeight="Bold"
+      FontSize="30"
+      TextAlignment="Center"
+      Name="TextBlock3"
+      Tag="TextBlock"
+      Width="368"
+      Height="34"
+      HorizontalAlignment="Stretch"
+      VerticalAlignment="Stretch"
+      Canvas.Left="71.4999999999999"
+      Canvas.Top="42.2950004577638"
+      Panel.ZIndex="12" />
+    <mwsuis:CustomDataGrid
+      Name="CustomDataGrid0"
+      Tag="CustomDataGrid"
+      Width="646"
+      MinWidth="20"
+      Height="169"
+      MinHeight="20"
+      Canvas.Left="50.5000000000008"
+      Canvas.Top="203.211386743066"
+      Panel.ZIndex="11" />
+    <Button
+      FontSize="14"
+      Name="Button0"
+      Tag="Button"
+      Width="80"
+      Height="45"
+      Canvas.Left="784.500000000001"
+      Canvas.Top="137.045000457764"
+      Panel.ZIndex="10">추가</Button>
+    <DatePicker
+      DisplayDate="2019-11-25T00:00+09:00"
+      Name="DatePicker0"
+      Tag="DatePicker"
+      Width="153"
+      Height="25"
+      Canvas.Left="75.0000000000007"
+      Canvas.Top="155.545000457764"
+      Panel.ZIndex="8" />
+    <TextBlock
+      Text="시작일"
+      TextAlignment="Center"
+      Name="TextBlock4"
+      Tag="TextBlock"
+      Width="38"
+      Height="20"
+      HorizontalAlignment="Stretch"
+      VerticalAlignment="Stretch"
+      Canvas.Left="77.4444444444449"
+      Canvas.Top="138.545000457764"
+      Panel.ZIndex="9" />
+    <DatePicker
+      DisplayDate="2019-11-25T00:00+09:00"
+      Name="DatePicker1"
+      Tag="DatePicker"
+      Width="155"
+      Height="25"
+      Canvas.Left="264.166666666667"
+      Canvas.Top="155.545000457764"
+      Panel.ZIndex="13" />
+    <TextBlock
+      Text="종료일"
+      TextAlignment="Center"
+      Name="TextBlock5"
+      Tag="TextBlock"
+      Width="38"
+      Height="20"
+      HorizontalAlignment="Stretch"
+      VerticalAlignment="Stretch"
+      Canvas.Left="263.166666666667"
+      Canvas.Top="140.545000457764"
+      Panel.ZIndex="14" />
+    <TextBox
+      TextAlignment="Center"
+      Name="TextBox0"
+      Tag="TextBox"
+      Width="320"
+      Height="22"
+      VerticalAlignment="Center"
+      Canvas.Left="445.333333333334"
+      Canvas.Top="158.545000457764"
+      Panel.ZIndex="7"
+      xml:space="preserve"></TextBox>
+    <Rectangle
+      RadiusX="0"
+      RadiusY="0"
+      Fill="#FFB9B9B9"
+      Name="Rectangle1"
+      Tag="Rectangle"
+      Width="838"
+      Height="60"
+      Opacity="0.48"
+      Canvas.Left="50.5000000000008"
+      Canvas.Top="129.545000457764"
+      Panel.ZIndex="6" />
+    <Rectangle
+      RadiusX="0"
+      RadiusY="0"
+      Fill="#FFB9B9B9"
+      Name="Rectangle2"
+      Tag="Rectangle"
+      Width="840"
+      Height="238"
+      Opacity="0.2"
+      Canvas.Left="53"
+      Canvas.Top="386.545000457764"
+      Panel.ZIndex="2" />
+    <TextBlock
+      Text="Gantt Schedule Manager"
+      FontFamily="Javanese Text"
+      FontStyle="Italic"
+      FontWeight="Bold"
+      FontSize="20"
+      Foreground="#FF222222"
+      TextAlignment="Center"
+      Name="TextBlock6"
+      Tag="TextBlock"
+      Width="286"
+      Height="42"
+      HorizontalAlignment="Stretch"
+      VerticalAlignment="Stretch"
+      Opacity="1"
+      Canvas.Left="112.5"
+      Canvas.Top="69.7950004577636"
+      Panel.ZIndex="5" />
+    <Image
+      Source="pack://application:,,,/Application_Gantt;component/resources/marinewiz_icon_basic_001.png"
+      Stretch="Uniform"
+      Name="Image0"
+      Tag="resources\marinewiz_icon_basic_001.png"
+      Width="65.0000000000001"
+      Height="64.9999999999999"
+      Opacity="1"
+      Canvas.Left="41.5"
+      Canvas.Top="39.5450004577637"
+      Panel.ZIndex="3" />
+    <Calendar
+      DisplayDate="2019-11-01"
+      DisplayMode="Month"
+      IsTodayHighlighted="True"
+      Name="Calendar0"
+      Tag="Calendar"
+      Width="180"
+      Height="183"
+      Canvas.Left="710.500000000001"
+      Canvas.Top="200.211386743066"
+      Panel.ZIndex="4" />
+    <TextBlock
+      Text="개발내용"
+      TextAlignment="Center"
+      Name="TextBlock7"
+      Tag="TextBlock"
+      Width="55.9999999999999"
+      Height="20"
+      HorizontalAlignment="Stretch"
+      VerticalAlignment="Stretch"
+      Canvas.Left="442.166666666667"
+      Canvas.Top="139.545000457764"
+      Panel.ZIndex="15" />
+  </Canvas>
+</Window>
