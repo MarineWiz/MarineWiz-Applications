@@ -20,4 +20,4 @@
 
 
 ## [Gantt]
-![Gantt](https://user-images.githubusercontent.com/45934727/74723169-7b39da00-527d-11ea-883a-63a57ad35325.JPG)
+![Gantt](https://user-images.githubusercontent.com/45934727/74723322-bcca8500-527d-11ea-8565-fc47f6d4c457.JPG)
