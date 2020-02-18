@@ -20,3 +20,4 @@
 
 
 ## [Gantt]
+![Gantt](https://user-images.githubusercontent.com/45934727/74723169-7b39da00-527d-11ea-883a-63a57ad35325.JPG)
